@@ -1,5 +1,5 @@
 //The word to swap
-let word = "Examination";
+let word = "hello";
 
 //function to swap the word
 function wordSwap(a){
