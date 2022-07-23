@@ -36,4 +36,4 @@ function mostOccurence(text) {
 
 }
 
-mostOccurence("sweet");
+mostOccurence("practice");

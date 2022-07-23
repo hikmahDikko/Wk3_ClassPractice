@@ -10,7 +10,7 @@ function checkPalindrome(String) {
   }
   return "It is a palindrome word";
 }
-let word = "mum";
+let word = "pap";
 
 let result = checkPalindrome(word);
 
