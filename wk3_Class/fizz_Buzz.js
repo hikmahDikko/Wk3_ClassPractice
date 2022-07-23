@@ -1,14 +1,17 @@
-//Program to return out every integer from 1 to the number
+//Program to print out every integer from 1 to the number
 
-let number = 10;
+let number = 9;
+let num = '';
 
 function decNum(a) {
   for (let i = 1; i <= a; i++) {
-    console.log(i);
+    num += i + ' ';
   }
+  return num;
 }
 
-decNum(number);
+let integer = decNum(number);
+console.log(integer);
 
 //Program to return if a number is either fizz or buzz
 
