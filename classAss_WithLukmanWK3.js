@@ -1,16 +1,16 @@
 //The word to swap
 let word = "hello";
 
-//function to swap the word
+//Swapped word
 function wordSwap(a) {
   //A variable to get the length of the word
   let u = a.length - 2;
 
-  //Variables to store some values (i.e. to help save some strings)
+  //Variable Declaration
   let x = '';
   let y = '';
 
-  // Looping through the word to get a string at a particular index
+  // String index
   for (let j = u; j < a.length; j++) {
     x += a[j] + '';
   }
@@ -19,7 +19,7 @@ function wordSwap(a) {
     y += a[i] + '';
   }
 
-  //To print the word generated
+  //New word generated
   return (x + y);
 }
 
