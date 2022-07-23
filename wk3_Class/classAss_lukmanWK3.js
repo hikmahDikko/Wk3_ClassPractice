@@ -1,5 +1,5 @@
 //The word to swap
-let word = "hello";
+let word = "Practice";
 
 //function to swap the word
 function wordSwap(a) {
@@ -20,7 +20,8 @@ function wordSwap(a) {
   }
 
   //To print the word generated
-  console.log(x + y);
+  return (x + y);
 }
 
-wordSwap(word);
+let swap = wordSwap(word);
+console.log(word + " swapped to " + swap);
